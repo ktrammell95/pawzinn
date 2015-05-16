@@ -1,20 +1,30 @@
+/* all map containers must be full height */
+html, body, .container-fluid, .row, .map { height: 100% }
+
+body {
+  background: rgb(235, 235, 235);
+}
 
 .slide-phone {
   color: white;
 }
 
+a {
+  color: #c12e2a;
+}
+
 a:hover {
-  color: red;
+  color: #c12e2a;
   text-decoration: none;
 }
 
 .fa {
   font-size: 2em;
-  color: rgb(193, 29, 29);
+  color: #c12e2a;
 }
 
 .red {
-  background: red;
+  background: #c12e2a;
 }
 
 .blue {
@@ -24,9 +34,23 @@ a:hover {
 
 /* PAGE - INDEX ----------------- */
 
-.caption{
+.caption {
   text-align: center;
 }
+
+/*.facility {
+  border-bottom: 1px solid grey;
+}*/
+
+.facility h1, .owners h1 {
+  color: #c12e2a;
+}
+
+.owners img {
+  width: 100%;
+  height: auto;
+}
+
 /* PAGE - CONTACT ----------------- */
 
 #map-outer {  
@@ -79,7 +103,7 @@ footer {
   position: relative;
   z-index: 2;
   border-top: 1px solid grey;
-  color: rgb(193, 29, 29);
+  color: #c12e2a;
 }
 
 footer ul li {
@@ -89,9 +113,8 @@ footer ul li {
 }
 
 footer a {
-    color: rgb(193, 29, 29);
+    color: #c12e2a;
 }
 
-/* all map containers must be full height */
-html, body, .container-fluid, .row, .map { height: 100% }
+
 
