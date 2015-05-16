@@ -13,6 +13,14 @@ ul li {
   color: rgb(193, 29, 29);
 }
 
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
 /* ----------------- CAROUSEL ----------------- */
 
 /* Carousel base class */
@@ -39,7 +47,7 @@ ul li {
 }
 
 .logo {
-  height: 100px;
+  height: 200px;
   width: auto;
 }
 
