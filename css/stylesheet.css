@@ -24,6 +24,9 @@ a:hover {
 
 /* PAGE - INDEX ----------------- */
 
+.caption{
+  text-align: center;
+}
 /* PAGE - CONTACT ----------------- */
 
 #map-outer {  
